@@ -10,8 +10,8 @@ If you don't want blue, no problem! You might want to fork this and change line 
 * [ ] Clone the repo
 * [ ] Open `Chrome` click on the menu on the right `setting` ➡️ `More Tools`  ➡️ `Extensions`
 * [ ] Switch On the `developer mode` on the right top corner.
-* [ ] Click on `load unpacked` on the left and select the `boilerplate` folder.
-* [ ] Now if you open a new tab you can see `Hello World!`
-* [ ] Cheers 💐 you are done. Start working with the respective files.
+* [ ] Click on `load unpacked` on the left and select the `cloned` folder.
+* [ ] Now go to twitter
+* [ ] Cheers 💐 you are done.
 
 _Fair warning: I don't have a lot of time to maintain this and am not really taking feature requests- it's something I made in one sitting that I use, and people asked me to open source. Please feel free to enjoy it and fork it for your own tweaks! You can always ask for bug fixes and features, but I'm not likely to work on them unless I really want the change, too. All that said, please enjoy! 🍻_
