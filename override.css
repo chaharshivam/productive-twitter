@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
 nav a div div,
 nav div div div {
-  font-size: 16px !important;
+  font-size: 1.2  5rem !important;
   font-weight: 400 !important;
   line-height: 1.3 !important;
 }
@@ -10,7 +12,8 @@ div[aria-label="Timeline: Trending now"] {
 }
 
 a[aria-label="Tweet"] {
-  display: none;
+  display: grid;
+  width: 80%;
 }
 
 aside[aria-label="Who to follow"] {
@@ -23,18 +26,20 @@ h2 div {
 
 header {
   margin-left: -7vw !important;
+  padding-left: 1.5rem !important;
 }
 
 div[data-testid="primaryColumn"] {
-  max-width: 650px !important;
+  max-width: 75% !important;
+  margin: 0 0 !important;
   box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.3);
-  background-color: rgb(21, 32, 43);
+  background-color: rgba(21, 32, 43, 0.7);
   border-color: #0d161e !important;
 }
 
 body {
   background: #151e27 !important;
-  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Roboto", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
@@ -44,7 +49,7 @@ div,
 article,
 aside,
 main {
-  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Roboto", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   letter-spacing: 0.01em;
@@ -52,19 +57,20 @@ main {
 
 article {
   border-color: #151e27 !important;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3) !important;
   padding: 20px 10px 5px 10px !important;
-  font-size: 17px;
-  max-width: 650px !important;
+  font-size: 18px;
+  max-width: 670px !important;
   transition: none !important;
 }
 
 article div div div div {
-  font-size: 17px !important;
+  font-size: 1rem !important;
   line-height: 1.5;
 }
 
 div {
-  border-color: #06090c !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 header div div div div div {
@@ -90,11 +96,11 @@ div[aria-live="polite"][aria-label="20+ unread items"] {
 }
 
 div[role="blockquote"] {
-  padding: 10px;
+  padding: 1rem;
 }
 
 article div div a + div:empty {
-  background: linear-gradient(rgb(242, 101, 102, 0.8), #1d1f33);
+  background: linear-gradient( #7f7fd5, #86a8e7, #91eae4);
 }
 
 div[data-testid="sidebarColumn"] {
@@ -105,9 +111,13 @@ div[data-testid="sidebarColumn"] {
 form[aria-label="Search Twitter"][role="search"] {
   visibility: visible !important;
   position: fixed !important;
-  width: 270px !important;
+  width: 20% !important;
   top: 8px;
   right: 20px;
+}
+
+nav[aria-label="Footer"][role="navigation"] {
+  display: none;
 }
 
 div[aria-modal="true"] div div div div div div div div div div div div div {
@@ -138,5 +148,5 @@ div[aria-label="New Tweets are available. Push period to go to the beginning of 
 }
 
 article[data-testid="tweetDetail"] > div:first-child {
-  display: none;
+  display: block;
 }
